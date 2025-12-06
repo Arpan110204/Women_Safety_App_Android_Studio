@@ -71,12 +71,15 @@ Custom Drawables
 Animations (pulse effect)
 Gradient backgrounds
 
-📱 App Screenshots (To Add)
+📱 App Screenshots
 
-Add images here later
-
-/assets/home_screen.png  
-/assets/alert_screen.png  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6d838655-5577-461d-bd8b-d37cf67fff67" width="160" style="margin-right:10px;" />
+  <img src="https://github.com/user-attachments/assets/8ba67bb5-c201-4db1-b8c7-ebc9d2ab9ff9" width="160" style="margin-right:10px;" />
+  <img src="https://github.com/user-attachments/assets/de01cd72-2749-410f-ab09-b3fe98267836" width="160" style="margin-right:10px;" />
+  <img src="https://github.com/user-attachments/assets/67013e26-dc60-4ec6-91d4-5352574d4d33" width="160" style="margin-right:10px;" />
+  <img src="https://github.com/user-attachments/assets/1a4025ff-4ad1-403b-a46b-096ae3466895" width="160" style="margin-right:10px;" />
+</p>
 
 ```
 🛠 Architecture Overview
