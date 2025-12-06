@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#121212">
+
+    <!-- App Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Women Safety App"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:paddingBottom="40dp" />
+
+    <!-- Glow Layer -->
+    <ImageView
+        android:id="@+id/imgGlow"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="-240dp"
+        android:src="@drawable/protection_glow"
+        android:visibility="gone" />
+
+    <!-- Main Round Protection Button -->
+    <LinearLayout
+        android:id="@+id/btnProtection"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:background="@drawable/protection_button"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvProtectionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="START"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Status Text -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Protection is OFF"
+        android:textColor="#CCCCCC"
+        android:textSize="18sp"
+        android:paddingTop="30dp" />
+
+</LinearLayout>

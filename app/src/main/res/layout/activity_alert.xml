@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/alert_gradient">
+
+    <!-- Main Alert Text -->
+    <TextView
+        android:id="@+id/tvAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unusual Movement Detected!"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="10dp" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you safe?"
+        android:textColor="#DDDDDD"
+        android:textSize="18sp"
+        android:paddingBottom="20dp" />
+
+    <!-- Countdown -->
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auto SOS in 10s..."
+        android:textColor="#FFEA82"
+        android:textSize="18sp"
+        android:paddingBottom="40dp" />
+
+    <!-- I'm Safe Button -->
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="I'M SAFE"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:background="@drawable/btn_safe" />
+
+    <!-- Send SOS -->
+    <Button
+        android:id="@+id/btnSendSOS"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="SEND SOS NOW"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/btn_sos"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
