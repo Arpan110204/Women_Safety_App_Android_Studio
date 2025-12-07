@@ -19,7 +19,7 @@ import androidx.core.content.ContextCompat
 class AlertActivity : AppCompatActivity() {
 
     // Change to your real emergency number
-    private val emergencyNumber = "+919002133051"
+    private val emergencyNumber = "+91XXXXXXXXXX"
 
     private var countDownTimer: CountDownTimer? = null
     private var sosAlreadySent = false   // prevent multiple sends
